@@ -1,4 +1,9 @@
 <script>
+	import github from "$lib/assets/github.svg";
+	import linkedin from "$lib/assets/linkedin-svgrepo-com.svg";
+	import link from "$lib/assets/link.svg";
+	import mail from "$lib/assets/mail.svg";
+
 	let { data } = $props();
 	let person = $derived(data.person);
 </script>
@@ -6,10 +11,18 @@
 <section>
 	<img src={person.avatar} alt="profile pic" width="80" />
 	<h1>{person.name}</h1>
-	<p>rowanvanlaar@gmail.com</p>
-	<a href="https://github.com/{person.github_handle}">github</a>
-	<a href="www.linkedin.com/in/rowan-van-laar-777369324">linkdin</a>
-	<a href="rowanvanlaar.nl">website</a>
+	<p>
+		<img src={mail} alt="github icon" width="24" /> rowanvanlaar@gmail.com
+	</p>
+	<a href="https://github.com/{person.github_handle}">
+		<img src={github} alt="github icon" width="24" /> github
+	</a>
+	<a href="www.linkedin.com/in/rowan-van-laar-777369324">
+		<img src={linkedin} alt="github icon" width="24" /> linkedin
+	</a>
+	<a href="rowanvanlaar.nl">
+		<img src={link} alt="github icon" width="24" /> website
+	</a>
 </section>
 
 <style>
