@@ -4,8 +4,12 @@
 </script>
 
 <section>
+	<img src={person.avatar} alt="profile pic" width="80" />
 	<h1>{person.name}</h1>
-	<p>{person.bio}</p>
+	<p>rowanvanlaar@gmail.com</p>
+	<a href="https://github.com/{person.github_handle}">github</a>
+	<a href="www.linkedin.com/in/rowan-van-laar-777369324">linkdin</a>
+	<a href="rowanvanlaar.nl">website</a>
 </section>
 
 <style>
