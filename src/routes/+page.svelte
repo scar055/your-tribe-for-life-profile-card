@@ -44,13 +44,17 @@
 			align-self: center;
 			border-radius: 50%;
 		}
-		p {
-			grid-column: 2;
-		}
+		p,
 		a {
+			display: flex;
+			gap: 0.5em;
 			grid-column: 2;
 			color: black;
 			margin-block-end: 1em;
+
+			img {
+				border-radius: 0;
+			}
 		}
 	}
 </style>
