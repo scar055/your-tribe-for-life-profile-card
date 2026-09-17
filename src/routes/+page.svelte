@@ -9,7 +9,7 @@
 </script>
 
 <section>
-	<img src={person.avatar} alt="profile pic" width="80" />
+	<img src={person.avatar} alt="profile pic" width="120" />
 	<h1>{person.name}</h1>
 	<p>
 		<img src={mail} alt="github icon" width="24" /> rowanvanlaar@gmail.com
