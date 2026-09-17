@@ -21,5 +21,23 @@
 		border: 1px solid rgba(255, 255, 255, 0.45);
 		border-radius: 18px;
 		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+		display: grid;
+		grid-template-columns: 0.5fr 1fr;
+		column-gap: 1em;
+		width: 40%;
+
+		img {
+			grid-row: span 5;
+			align-self: center;
+			border-radius: 50%;
+		}
+		p {
+			grid-column: 2;
+		}
+		a {
+			grid-column: 2;
+			color: black;
+			margin-block-end: 1em;
+		}
 	}
 </style>
