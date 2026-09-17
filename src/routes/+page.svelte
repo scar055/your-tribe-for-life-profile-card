@@ -37,7 +37,8 @@
 		display: grid;
 		grid-template-columns: 0.5fr 1fr;
 		column-gap: 1em;
-		width: 40%;
+		width: 100%;
+		max-width: 30%;
 
 		img {
 			grid-row: span 5;
