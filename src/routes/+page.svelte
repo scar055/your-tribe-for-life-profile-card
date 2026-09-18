@@ -20,7 +20,7 @@
 	<a href="www.linkedin.com/in/rowan-van-laar-777369324">
 		<img src={linkedin} alt="github icon" width="24" /> linkedin
 	</a>
-	<a href="rowanvanlaar.nl">
+	<a href="https://rowanvanlaar.nl/">
 		<img src={link} alt="github icon" width="24" /> website
 	</a>
 </section>
